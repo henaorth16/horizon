@@ -1,0 +1,143 @@
+PROMPT 01 — REPOSITORY AUDIT
+Inspect this repository and identify its framework, dependencies, conventions, and current state. Do not change code yet. Summarize risks and propose a minimal implementation plan for the Ethiopia Migration & Displacement Observatory.
+
+PROMPT 02 — PRODUCT REQUIREMENTS
+Create /docs/product-requirements.md describing the audience, goals, key questions, pages, core interactions, accessibility, performance, data transparency, and out-of-scope features. Distinguish refugees, asylum-seekers, international migrants, internally displaced people (IDPs), and returnees.
+
+PROMPT 03 — TECH STACK RESEARCH
+Review current official documentation and compare suitable libraries for Next.js, TypeScript, D3.js, geographic maps, a 3D globe, data validation, database access, testing, and accessibility. Choose a small compatible stack, explain trade-offs in /docs/architecture-decisions.md, and avoid unnecessary dependencies.
+
+PROMPT 04 — INSTALL DEPENDENCIES
+Install and configure the selected libraries using the repository's package manager. Prefer stable, compatible releases and official setup instructions. Include D3 modules needed for scales, axes, shapes, geography, hierarchy, and any chosen globe/map library. Verify build and type-check commands.
+
+PROMPT 05 — PROJECT STRUCTURE
+Create a maintainable structure for routes, UI components, visualizations, data-source adapters, normalization, validation, API handlers, tests, and documentation. Follow existing project conventions and avoid creating empty abstractions without a clear use.
+
+PROMPT 06 — DESIGN SYSTEM
+Build a distinctive, accessible, responsive visual system: editorial data-journalism style, dark observatory surfaces, restrained warm accents, readable typography, consistent spacing, chart colors, legends, tooltips, loading states, empty states, and error states. Do not sacrifice readability for decoration.
+
+PROMPT 07 — APP SHELL AND NAVIGATION
+Implement the responsive application shell and navigation for Overview, Migration Globe, Inside Ethiopia, Across Borders, People & Demographics, Drivers & Crises, Humanitarian Needs, Data Explorer, and Sources & Methodology. Make routes work and label unfinished sections honestly.
+
+PROMPT 08 — DATA SOURCE RESEARCH
+Research current official public sources for Ethiopian displacement and migration data, including IOM DTM, HDX, UNHCR, UN DESA, UNICEF, IDMC, World Bank, Ethiopian open data, OCHA, FEWS NET, ICPAC, and IOM Missing Migrants. For each candidate, document official URL, API/download method, license, terms, geographic and demographic coverage, update frequency, and limitations in /docs/data-sources.md. Verify claims from primary sources.
+
+PROMPT 09 — API ACCESS PROOF
+For the highest-value sources, verify their current documented API or download workflow. Build a small proof-of-access script or adapter for one source. Respect authentication requirements, rate limits, attribution, robots/terms, and caching. Never invent endpoints or scrape prohibited content.
+
+PROMPT 10 — DATA CONTRACTS
+Define TypeScript types and runtime validation schemas for sources, datasets, locations, indicators, observations, demographic categories, reporting periods, provenance, and quality notes. Preserve original source fields and categories where useful. Reject malformed data with actionable errors.
+
+PROMPT 11 — DATA MODEL
+Design the database schema for locations, sources, dataset versions, indicator definitions, observations, ingestion runs, and validation issues. Store source/reference dates separately from retrieval dates. Add indexes and constraints based on expected queries. Explain decisions in /docs/data-dictionary.md.
+
+PROMPT 12 — GEOGRAPHIC DATA
+Find trustworthy, appropriately licensed Ethiopia administrative boundaries and world country boundaries. Record source, version, administrative level, coordinate reference system, and license. Optimize geometry for web use without losing necessary detail. Never imply a finer geographic resolution than the data supports.
+
+PROMPT 13 — INGESTION PIPELINE
+Implement reusable ingestion jobs that fetch or download public datasets, save raw/versioned copies when permitted, validate schemas, normalize fields, record provenance, and upsert observations safely. Make jobs repeatable and idempotent. Do not replace valid data with an empty result after a source outage.
+
+PROMPT 14 — NORMALIZATION AND DEFINITIONS
+Create documented mappings for population types, sex/gender categories, age bands, geography, units, and reporting periods. Preserve source values and provenance. Do not merge categories unless the mapping is defensible. Keep refugee, asylum-seeker, IDP, returnee, migrant stock, and migration-flow measures distinct.
+
+PROMPT 15 — DATA QUALITY RULES
+Implement checks for missing values, invalid dates, duplicate records, conflicting observations, implausible values, stale data, geographic mismatches, and category inconsistencies. Distinguish zero from unknown, suppressed, unavailable, and unassessed. Surface quality warnings to users.
+
+PROMPT 16 — FIRST REAL DATASET
+Choose one well-documented, relevant public dataset with suitable licensing and coverage. Integrate it end to end: retrieval, validation, normalization, storage, API access, source attribution, and a real visualization. Document known gaps. Do not use invented figures as real data.
+
+PROMPT 17 — BACKEND API
+Implement documented, typed API endpoints for observations, indicators, locations, sources, and dataset freshness. Support pagination and validated filters for date, location, population type, and indicator. Add sensible limits, caching, consistent errors, and tests.
+
+PROMPT 18 — OVERVIEW DASHBOARD
+Build the main dashboard with source-backed indicators, reporting dates, a national map, historical trend, and links to deeper analysis. Only show KPIs supported by valid data. Include definitions and source links; never add overlapping population categories together.
+
+PROMPT 19 — ETHIOPIA MAP
+Build an interactive D3 choropleth for supported administrative levels. Add hover/focus tooltips, keyboard-accessible selection, zoom where useful, legends, missing-data states, and a detail panel. Make clear what each color encodes and show the source and reference date.
+
+PROMPT 20 — DISPLACEMENT EXPLORER
+Create a detailed internal-displacement view with filters for region, reporting period, population type, and available demographic/driver categories. Show origin-destination flows only when the source contains defensible flow data. Explain coverage and assessment limitations.
+
+PROMPT 21 — DEMOGRAPHICS
+Implement a population pyramid, demographic composition chart, and regional comparison view when source data supports them. Preserve original age and sex categories, indicate missing breakdowns, and prevent incompatible datasets from being silently combined.
+
+PROMPT 22 — GLOBAL MIGRATION ATLAS
+Build an interactive world map or globe for international migration. Clearly separate migrant stock, migration flows, refugees, and asylum-seekers. Add destination rankings, time controls where valid, accessible 2D fallback, and source-backed detail panels.
+
+PROMPT 23 — 3D GLOBE
+Evaluate whether D3 Geo alone or a Three.js-based globe is best for the intended interaction and device performance. Implement rotation, zoom, country selection, meaningful data marks, and graceful fallback. Avoid decorative arcs that imply movements unsupported by data.
+
+PROMPT 24 — FLOW AND SANKEY VIEWS
+Add a flow map or Sankey diagram only where origin-destination counts are available and comparable. Scale widths accurately, handle unknown origins/destinations, provide a table alternative, and document aggregation methods.
+
+PROMPT 25 — DRIVERS AND CONTEXT
+Build a view for documented displacement drivers and contextual indicators such as conflict, climate hazards, and food security where reliable data exists. Distinguish reported causes from contextual correlation. Do not claim causation without evidence.
+
+PROMPT 26 — HUMANITARIAN NEEDS
+Build regional views for available indicators such as shelter, food security, health, education, water/sanitation, protection, and livelihoods. Do not infer need from missing data or create an unexplained composite vulnerability score.
+
+PROMPT 27 — DATA EXPLORER
+Create a searchable, filterable observation table with source, indicator definition, location, reference period, retrieval date, and quality notes. Support safe CSV/JSON exports and provide a data dictionary and citation details.
+
+PROMPT 28 — LINKED INTERACTIONS
+Connect map selections, filters, charts, and detail panels through a clear shared state model. Make reset behavior predictable, preserve useful URL query parameters, and ensure selections do not produce misleading comparisons.
+
+PROMPT 29 — VISUALIZATION QUALITY
+Review every chart for correct scales, units, axes, legends, responsive sizing, tooltip behavior, color contrast, empty/loading/error states, and data provenance. Prefer honest clarity over unnecessary animation.
+
+PROMPT 30 — ACCESSIBILITY
+Audit keyboard navigation, focus states, semantic labels, screen-reader descriptions, reduced-motion preferences, contrast, and color-blind-safe encoding. Provide accessible table or text alternatives for complex charts and maps.
+
+PROMPT 31 — PERFORMANCE
+Profile realistic datasets and optimize rendering. Use responsive chart dimensions, memoization where appropriate, simplified map geometry, lazy loading, and Canvas/WebGL only when justified. Avoid excessive animation and test on lower-powered devices.
+
+PROMPT 32 — SECURITY AND PRIVACY
+Review API validation, injection risks, rate limiting, security headers, secrets handling, dependency vulnerabilities, export safety, and error leakage. Do not collect personal or identifying refugee data. Use aggregate public data and avoid exposing sensitive locations or small groups where disclosure could cause harm.
+
+PROMPT 33 — TEST STRATEGY
+Set up appropriate unit, integration, component, and end-to-end testing tools after checking current official docs. Add scripts for tests, linting, type-checking, and production build. Document the test strategy in /docs/testing.md.
+
+PROMPT 34 — UNIT AND INTEGRATION TESTS
+Test normalization, category mappings, duplicate handling, date handling, quality checks, API filters, pagination, error cases, caching behavior, and ingestion idempotency. Use synthetic fixtures clearly marked as test data and do not present them as real statistics.
+
+PROMPT 35 — VISUALIZATION TESTS
+Test chart rendering with valid, empty, missing, and malformed datasets; resizing; filter changes; keyboard interactions; and accessible alternatives. Verify chart labels and scales using deterministic fixtures.
+
+PROMPT 36 — END-TO-END TESTS
+Add browser tests for navigation, dashboard loading, map selection, filtering, source-detail views, exports, mobile layout, and graceful source/API failures. Tests must not depend on live third-party APIs; mock external responses in automated test runs.
+
+PROMPT 37 — DATA PIPELINE TESTS
+Add fixtures and contract tests for every source adapter. Test schema changes, unavailable sources, rate limiting, invalid payloads, partial data, and recovery. Ensure a failed import cannot silently erase the last known-good dataset.
+
+PROMPT 38 — LEGAL AND POLICY DOCUMENTS
+Research relevant laws and the actual licenses and terms of every integrated dataset. Draft /docs/terms-of-use.md, /docs/privacy-policy.md, /docs/data-attribution.md, and /docs/disclaimer.md for review. Clearly state the operator identity and contact details as configurable placeholders if unknown. Do not invent legal compliance claims; mark drafts as requiring qualified review.
+
+PROMPT 39 — WEBSITE LEGAL PAGES
+Create accessible website pages for Terms of Use, Privacy Policy, Data Attribution, and Disclaimer. Explain that third-party data may be incomplete, revised, delayed, or non-comparable; link to original publishers; describe analytics/cookies only according to actual implementation; and provide a contact route. Do not claim the site provides official humanitarian advice.
+
+PROMPT 40 — METHODOLOGY AND CITATIONS
+Write /docs/methodology.md explaining definitions, data selection, normalization, deduplication, geographic matching, time handling, uncertainty, missingness, source precedence, and known limitations. Add a source/citation link to every relevant chart and exported dataset.
+
+PROMPT 41 — DOCUMENTATION
+Create a README with purpose, features, architecture, prerequisites, environment setup, database setup, ingestion commands, development commands, tests, build/deployment steps, and contribution guidance. Add .env.example containing names and descriptions only—never secrets.
+
+PROMPT 42 — CONTRIBUTING AND OPEN SOURCE
+Add CONTRIBUTING.md and a code of conduct if appropriate. Document formatting, branches, commits, tests, issue reporting, license choices, and the process for adding a new data source. Verify that project and dataset licenses are compatible; do not assume public access means unrestricted reuse.
+
+PROMPT 43 — ERROR AND EMPTY STATES
+Review every route and visualization for loading, no-data, stale-data, partial-data, API-error, and unsupported-filter states. Explain the problem and offer a useful next step without displaying fake figures.
+
+PROMPT 44 — SEO AND SHARING
+Add accurate page metadata, descriptive titles, social preview metadata, sitemap/robots configuration, and shareable filter URLs where appropriate. Avoid indexing internal/debug endpoints and never put secrets or sensitive information in URLs.
+
+PROMPT 45 — FINAL AUDIT
+Run the complete test suite, lint, type-check, production build, accessibility checks, and dependency/security audit. Fix issues rather than merely listing them. Verify that no fabricated statistics, dead links, undocumented API endpoints, exposed secrets, or unsupported causal claims remain. Report commands run, actual results, remaining risks, and recommended next steps.
+
+PROMPT 46 — RELEASE CHECKLIST
+Create /docs/release-checklist.md covering deployment configuration, database migrations, scheduled ingestion, monitoring, backups, source availability, legal review, data attribution, accessibility, performance, incident response, and rollback. Confirm that every scheduled job has observable success/failure status.
+
+PROMPT 47 — OPTIONAL INSIGHT SUMMARIES
+Only after reliable data and tests exist, implement short automatically generated insights from explicit, tested calculations. Each insight must link to its data and time period, state uncertainty and limitations, and distinguish observed changes from possible explanations. Never invent causes or fill gaps with generated numbers.
+
+FINAL AGENT INSTRUCTION
+Work incrementally. Before each significant change, inspect the relevant code and current official documentation. Make the smallest coherent change, run the relevant checks, and report files changed, commands run, results, and unresolved issues. Ask before destructive migrations or major architecture changes. Never claim a test passed unless it was actually run successfully.
