@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unhcr_refugees_2023_ET",
+    "indicatorId": "refugee_stock",
+    "locationId": "ET",
+    "value": 979846,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T01:37:32.221Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T01:37:32.221Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Report)"
+    }
+  },
+  {
+    "id": "unhcr_asylum_2023_ET",
+    "indicatorId": "asylum_seeker_stock",
+    "locationId": "ET",
+    "value": 63747,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T01:37:32.221Z",
+    "sourceId": "unhcr",
+    "populationType": "asylum_seeker",
+    "confidence": "high",
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T01:37:32.221Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Report)"
+    }
+  },
+  {
+    "id": "unhcr_refugees_2023_ET_from_ssd",
+    "indicatorId": "refugee_stock",
+    "locationId": "ET",
+    "value": 421438,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T01:37:32.221Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "originLocationId": "SSD"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T01:37:32.221Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (2023) — Origin: South Sudan"
+    }
+  },
+  {
+    "id": "unhcr_refugees_2023_ET_from_som",
+    "indicatorId": "refugee_stock",
+    "locationId": "ET",
+    "value": 312185,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T01:37:32.221Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "originLocationId": "SOM"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T01:37:32.221Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (2023) — Origin: Somalia"
+    }
+  },
+  {
+    "id": "unhcr_refugees_2023_ET_from_eri",
+    "indicatorId": "refugee_stock",
+    "locationId": "ET",
+    "value": 168793,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T01:37:32.221Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "originLocationId": "ERI"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T01:37:32.221Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (2023) — Origin: Eritrea"
+    }
+  },
+  {
+    "id": "unhcr_refugees_2023_ET_from_sdn",
+    "indicatorId": "refugee_stock",
+    "locationId": "ET",
+    "value": 77430,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T01:37:32.221Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "originLocationId": "SDN"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T01:37:32.221Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (2023) — Origin: Sudan"
+    }
+  }
+]

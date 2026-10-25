@@ -1,0 +1,86 @@
+[
+  {
+    "region": "Tigray",
+    "pcode": "ET01",
+    "idps": 1025400,
+    "returnees": 1210000,
+    "driver": "conflict"
+  },
+  {
+    "region": "Afar",
+    "pcode": "ET02",
+    "idps": 132400,
+    "returnees": 46000,
+    "driver": "conflict"
+  },
+  {
+    "region": "Amhara",
+    "pcode": "ET03",
+    "idps": 621000,
+    "returnees": 182000,
+    "driver": "conflict"
+  },
+  {
+    "region": "Oromia",
+    "pcode": "ET04",
+    "idps": 848900,
+    "returnees": 215000,
+    "driver": "conflict"
+  },
+  {
+    "region": "Somali",
+    "pcode": "ET05",
+    "idps": 542300,
+    "returnees": 94000,
+    "driver": "drought"
+  },
+  {
+    "region": "Benishangul-Gumuz",
+    "pcode": "ET06",
+    "idps": 85200,
+    "returnees": 31000,
+    "driver": "conflict"
+  },
+  {
+    "region": "Southern Nations (SNNPR)",
+    "pcode": "ET07",
+    "idps": 94000,
+    "returnees": 18000,
+    "driver": "drought"
+  },
+  {
+    "region": "Sidama",
+    "pcode": "ET10",
+    "idps": 11200,
+    "returnees": 5000,
+    "driver": "drought"
+  },
+  {
+    "region": "Gambela",
+    "pcode": "ET12",
+    "idps": 24500,
+    "returnees": 8000,
+    "driver": "floods"
+  },
+  {
+    "region": "Harari",
+    "pcode": "ET13",
+    "idps": 2100,
+    "returnees": 800,
+    "driver": "conflict"
+  },
+  {
+    "region": "Addis Ababa",
+    "pcode": "ET14",
+    "idps": 1800,
+    "returnees": 500,
+    "driver": "conflict"
+  },
+  {
+    "region": "Dire Dawa",
+    "pcode": "ET15",
+    "idps": 3400,
+    "returnees": 1100,
+    "driver": "drought"
+  }
+]

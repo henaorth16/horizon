@@ -1,0 +1,242 @@
+[
+  {
+    "id": "unhcr_demo_2023_ET_m_0_4",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 67610,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "0-4"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  },
+  {
+    "id": "unhcr_demo_2023_ET_f_0_4",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 64670,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "0-4"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  },
+  {
+    "id": "unhcr_demo_2023_ET_m_5_11",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 119541,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "5-11"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  },
+  {
+    "id": "unhcr_demo_2023_ET_f_5_11",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 114642,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "5-11"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  },
+  {
+    "id": "unhcr_demo_2023_ET_m_12_17",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 74468,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "12-17"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  },
+  {
+    "id": "unhcr_demo_2023_ET_f_12_17",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 71529,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "12-17"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  },
+  {
+    "id": "unhcr_demo_2023_ET_m_18_59",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 201848,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "18-59"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  },
+  {
+    "id": "unhcr_demo_2023_ET_f_18_59",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 228304,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "18-59"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  },
+  {
+    "id": "unhcr_demo_2023_ET_m_60_plus",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 17637,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "60+"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  },
+  {
+    "id": "unhcr_demo_2023_ET_f_60_plus",
+    "indicatorId": "refugee_demographic",
+    "locationId": "ET",
+    "value": 19597,
+    "reportingDate": "2023-12-31",
+    "referencePeriodType": "year",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "unhcr",
+    "populationType": "refugee",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "60+"
+    },
+    "provenance": {
+      "sourceId": "unhcr",
+      "sourceName": "UNHCR Refugee Data Finder",
+      "datasetSnapshotId": "snap_unhcr_2023",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "UNHCR Global Refugee Data Finder (Year-End 2023 Demographic Breakdown)"
+    }
+  }
+]

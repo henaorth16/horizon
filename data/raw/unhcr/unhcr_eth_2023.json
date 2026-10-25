@@ -1,0 +1,30 @@
+{
+  "year": 2023,
+  "countryOfAsylum": "ETH",
+  "totals": {
+    "refugees": 979846,
+    "asylumSeekers": 63747
+  },
+  "origins": [
+    {
+      "originIso": "SSD",
+      "originName": "South Sudan",
+      "refugees": 421438
+    },
+    {
+      "originIso": "SOM",
+      "originName": "Somalia",
+      "refugees": 312185
+    },
+    {
+      "originIso": "ERI",
+      "originName": "Eritrea",
+      "refugees": 168793
+    },
+    {
+      "originIso": "SDN",
+      "originName": "Sudan",
+      "refugees": 77430
+    }
+  ]
+}

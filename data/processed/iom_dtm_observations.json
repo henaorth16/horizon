@@ -1,0 +1,558 @@
+[
+  {
+    "id": "dtm_r37_idp_ET01",
+    "indicatorId": "idp_stock",
+    "locationId": "ET01",
+    "value": 1025400,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "conflict"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Tigray)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET01",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET01",
+    "value": 1210000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Tigray)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET02",
+    "indicatorId": "idp_stock",
+    "locationId": "ET02",
+    "value": 132400,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "conflict"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Afar)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET02",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET02",
+    "value": 46000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Afar)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET03",
+    "indicatorId": "idp_stock",
+    "locationId": "ET03",
+    "value": 621000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "conflict"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Amhara)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET03",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET03",
+    "value": 182000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Amhara)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET04",
+    "indicatorId": "idp_stock",
+    "locationId": "ET04",
+    "value": 848900,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "conflict"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Oromia)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET04",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET04",
+    "value": 215000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Oromia)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET05",
+    "indicatorId": "idp_stock",
+    "locationId": "ET05",
+    "value": 542300,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "drought"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Somali)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET05",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET05",
+    "value": 94000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Somali)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET06",
+    "indicatorId": "idp_stock",
+    "locationId": "ET06",
+    "value": 85200,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "conflict"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Benishangul-Gumuz)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET06",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET06",
+    "value": 31000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Benishangul-Gumuz)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET07",
+    "indicatorId": "idp_stock",
+    "locationId": "ET07",
+    "value": 94000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "drought"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Southern Nations (SNNPR))"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET07",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET07",
+    "value": 18000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Southern Nations (SNNPR))"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET10",
+    "indicatorId": "idp_stock",
+    "locationId": "ET10",
+    "value": 11200,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "drought"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Sidama)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET10",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET10",
+    "value": 5000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Sidama)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET12",
+    "indicatorId": "idp_stock",
+    "locationId": "ET12",
+    "value": 24500,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "floods"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Gambela)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET12",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET12",
+    "value": 8000,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Gambela)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET13",
+    "indicatorId": "idp_stock",
+    "locationId": "ET13",
+    "value": 2100,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "conflict"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Harari)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET13",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET13",
+    "value": 800,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Harari)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET14",
+    "indicatorId": "idp_stock",
+    "locationId": "ET14",
+    "value": 1800,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "conflict"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Addis Ababa)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET14",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET14",
+    "value": 500,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Addis Ababa)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_ET15",
+    "indicatorId": "idp_stock",
+    "locationId": "ET15",
+    "value": 3400,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "breakdown": {
+      "driver": "drought"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Site Assessment Round 37 (Dire Dawa)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_ET15",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET15",
+    "value": 1100,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Village Assessment Round 37 (Dire Dawa)"
+    }
+  },
+  {
+    "id": "dtm_r37_idp_national",
+    "indicatorId": "idp_stock",
+    "locationId": "ET",
+    "value": 3392200,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Ethiopia National Summary Round 37 (August 2024)"
+    }
+  },
+  {
+    "id": "dtm_r37_ret_national",
+    "indicatorId": "returnee_stock",
+    "locationId": "ET",
+    "value": 1811400,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T01:37:32.225Z",
+    "sourceId": "iom_dtm",
+    "populationType": "returnee",
+    "confidence": "medium",
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM DTM Ethiopia",
+      "datasetSnapshotId": "snap_iom_dtm_r37_20240831",
+      "retrievalTimestamp": "2026-10-22T01:37:32.225Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM Displacement Tracking Matrix Ethiopia National Summary Round 37 (August 2024)"
+    }
+  }
+]

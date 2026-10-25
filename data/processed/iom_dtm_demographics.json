@@ -1,0 +1,482 @@
+[
+  {
+    "id": "dtm_r37_demo_ET_m_0_4",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 254415,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "0-4"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET_f_0_4",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 251023,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "0-4"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET_m_5_11",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 434202,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "5-11"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET_f_5_11",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 420633,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "5-11"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET_m_12_17",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 278160,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "12-17"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET_f_12_17",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 284945,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "12-17"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET_m_18_59",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 671656,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "18-59"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET_f_18_59",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 712362,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "18-59"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET_m_60_plus",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 40706,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "60+"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET_f_60_plus",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET",
+    "value": 44098,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "60+"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Ethiopia National Displacement Report 37 (Site Assessment Age-Sex Profile)"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_m_0_4",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 74854,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "0-4"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_f_0_4",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 73829,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "0-4"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_m_5_11",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 128175,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "5-11"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_f_5_11",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 125100,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "5-11"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_m_12_17",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 83057,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "12-17"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_f_12_17",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 85108,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "12-17"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_m_18_59",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 204055,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "18-59"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_f_18_59",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 218410,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "18-59"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_m_60_plus",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 15381,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "male",
+      "ageGroup": "60+"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  },
+  {
+    "id": "dtm_r37_demo_ET01_f_60_plus",
+    "indicatorId": "idp_demographic",
+    "locationId": "ET01",
+    "value": 17431,
+    "reportingDate": "2024-08-31",
+    "referencePeriodType": "round",
+    "retrievalDate": "2026-10-22T04:00:00.000Z",
+    "sourceId": "iom_dtm",
+    "populationType": "idp",
+    "confidence": "high",
+    "breakdown": {
+      "sex": "female",
+      "ageGroup": "60+"
+    },
+    "provenance": {
+      "sourceId": "iom_dtm",
+      "sourceName": "IOM Displacement Tracking Matrix",
+      "datasetSnapshotId": "snap_iom_dtm_r37",
+      "retrievalTimestamp": "2026-10-22T04:00:00.000Z",
+      "license": "CC BY 4.0",
+      "citation": "IOM DTM Round 37 — Tigray Site Assessment Demographic Breakdown"
+    }
+  }
+]
