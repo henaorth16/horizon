@@ -53,8 +53,8 @@ Before setting up the project locally, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/refugees-data-vis.git
-   cd refugees-data-vis
+   git clone https://github.com/henaorth16/horizon.git
+   cd horizon
    ```
 
 2. **Configure environment variables**:
