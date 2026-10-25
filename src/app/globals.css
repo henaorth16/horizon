@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink-950: var(--ink-950);
+  --color-ink-900: var(--ink-900);
+  --color-ink-850: var(--ink-850);
+  --color-ink-800: var(--ink-800);
+  --color-ink-700: var(--ink-700);
+  --color-ink-600: var(--ink-600);
+
+  --color-slate-100: var(--slate-100);
+  --color-slate-200: var(--slate-200);
+  --color-slate-300: var(--slate-300);
+  --color-slate-400: var(--slate-400);
+  --color-slate-500: var(--slate-500);
+
+  /* Five Core Cozy Earth-Tone Colors */
+  --color-cozy-cream: #fefae0;
+  --color-cozy-forest: #283618;
+  --color-cozy-olive: #606c38;
+  --color-cozy-sand: #dda15e;
+  --color-cozy-rust: #bc6c25;
+
+  /* Extended Harmonic Variants */
+  --color-cozy-cream-light: #fffef7;
+  --color-cozy-cream-dark: #f4edd0;
+  --color-cozy-forest-dark: #18220f;
+  --color-cozy-forest-light: #374a21;
+  --color-cozy-olive-light: #788949;
+  --color-cozy-olive-dark: #4b552b;
+  --color-cozy-sand-light: #e8b67b;
+  --color-cozy-sand-dark: #c58641;
+  --color-cozy-rust-light: #cf7c33;
+  --color-cozy-rust-dark: #985116;
+  --color-cozy-terracotta: #cb5a36;
+  --color-cozy-river: #426b66;
+  --color-cozy-plum: #795267;
+  --color-cozy-sage: #5c7b46;
+  --color-cozy-clay: #a86940;
+
+  --color-accent-ochre: var(--color-accent-ochre);
+  --color-accent-terracotta: var(--color-accent-terracotta);
+  --color-accent-ember: var(--color-accent-ember);
+  --color-accent-cyan: var(--color-accent-cyan);
+  --color-accent-sage: var(--color-accent-sage);
+  --color-accent-indigo: var(--color-accent-indigo);
+
+  --color-pop-idp: var(--color-pop-idp);
+  --color-pop-refugee: var(--color-pop-refugee);
+  --color-pop-asylum: var(--color-pop-asylum);
+  --color-pop-returnee: var(--color-pop-returnee);
+  --color-pop-migrant: var(--color-pop-migrant);
+}
+
+/* Light Mode (Default) — Warm Cozy Cornsilk Theme */
+:root {
+  --background: #fefae0;
+  --foreground: #283618;
+
+  --ink-950: #fefae0;
+  --ink-900: #ffffff;
+  --ink-850: #fcf8e3;
+  --ink-800: #f4edd0;
+  --ink-700: #e3dbbc;
+  --ink-600: #cfc39a;
+
+  --slate-100: #283618;
+  --slate-200: #384822;
+  --slate-300: #4c5b33;
+  --slate-400: #68754e;
+  --slate-500: #8b976f;
+
+  --color-accent-ochre: #dda15e;
+  --color-accent-terracotta: #bc6c25;
+  --color-accent-ember: #cf7b32;
+  --color-accent-cyan: #426b66;
+  --color-accent-sage: #606c38;
+  --color-accent-indigo: #795267;
+
+  --color-pop-idp: #dda15e;
+  --color-pop-refugee: #426b66;
+  --color-pop-asylum: #795267;
+  --color-pop-returnee: #606c38;
+  --color-pop-migrant: #a86940;
+}
+
+/* Dark Mode — Cozy Deep Moss & Forest Theme */
+.dark,
+[data-theme="dark"] {
+  --background: #18220f;
+  --foreground: #fefae0;
+
+  --ink-950: #18220f;
+  --ink-900: #212c15;
+  --ink-850: #283618;
+  --ink-800: #33431d;
+  --ink-700: #435627;
+  --ink-600: #576e35;
+
+  --slate-100: #fefae0;
+  --slate-200: #f5eed4;
+  --slate-300: #e2dab8;
+  --slate-400: #b3a887;
+  --slate-500: #8c8263;
+
+  --color-accent-ochre: #dda15e;
+  --color-accent-terracotta: #d97042;
+  --color-accent-ember: #e88d40;
+  --color-accent-cyan: #5b938d;
+  --color-accent-sage: #79984b;
+  --color-accent-indigo: #9e6e87;
+
+  --color-pop-idp: #dda15e;
+  --color-pop-refugee: #5b938d;
+  --color-pop-asylum: #9e6e87;
+  --color-pop-returnee: #79984b;
+  --color-pop-migrant: #c07e52;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  width: 100%;
+  min-height: 100vh;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  overflow-X: hidden;
+}
+
+/* Custom scrollbars for data tables and panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ink-950);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ink-700);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-600);
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Standard accessible focus ring defaults */
+:focus-visible {
+  outline: 2px solid #bc6c25;
+  outline-offset: 2px;
+}
